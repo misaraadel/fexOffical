@@ -70,7 +70,7 @@ ul {
 }
 
 .heading {
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 800;
   line-height: 43px;
   color: #fff;
@@ -247,10 +247,12 @@ header .image-content {
   width: 100%;
   height: 130px !important;
   overflow: hidden;
+  border: 1px solid #707070;
 }
 
 header .image-content.round {
   border-radius: 69px 0px 0px 0px;
+  border: none !important;
 }
 
 header .image-content img {
@@ -322,7 +324,7 @@ header .image-content img {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  padding: 10px 67px;
+  padding: 10px 44px;
   -ms-flex-line-pack: end;
       align-content: flex-end;
 }
@@ -357,6 +359,23 @@ header .image-content img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border: 1px solid #707070;
+}
+
+.follow-us .banner .button-contain .sustom-btn.height {
+  height: 20px;
+  width: 110px;
+  border: 1px solid #fff !important;
+}
+
+.follow-us .banner .button-contain .sustom-btn.height img {
+  width: 14px !important;
+  height: 11px !important;
+  margin-left: 4px !important;
+}
+
+.follow-us .banner .button-contain .sustom-btn.height span {
+  line-height: 0px !important;
 }
 
 .follow-us .banner .button-contain .sustom-btn.yellow-color {
@@ -432,6 +451,7 @@ header .image-content img {
   font-size: 28px;
   font-weight: 600;
   line-height: 37px;
+  direction: ltr !important;
 }
 
 .follow-us .banner .button-contain .sustom-btn span.small-text {
@@ -496,7 +516,7 @@ header .image-content img {
 }
 
 .contact .contact-shape h5 {
-  font-size: 15px;
+  font-size: 11px;
   font-weight: 900;
   line-height: 10px;
   color: #585858;
@@ -506,7 +526,7 @@ header .image-content img {
 
 .contact .contact-shape h5 span {
   color: #585858;
-  font-size: 14px;
+  font-size: 11px;
   font-weight: 400;
   line-height: 7px;
 }
@@ -543,6 +563,8 @@ header .image-content img {
   -o-object-fit: contain;
      object-fit: contain;
   margin-bottom: 10px;
+  -webkit-transition: all .4s linear;
+  transition: all .4s linear;
 }
 
 .contact .contact-shape .social-media li a span {
@@ -551,13 +573,18 @@ header .image-content img {
   font-weight: 500;
 }
 
-.contact .contact-shape .social-media li a:hover img {
-  -webkit-animation: bounce-in-fwd 1s linear infinite;
-          animation: bounce-in-fwd 1s linear infinite;
+.contact .contact-shape .social-media li a:hover, .contact .contact-shape .social-media li a.active {
+  background-color: transparent !important;
 }
 
-.contact .contact-shape .social-media li a:hover span {
+.contact .contact-shape .social-media li a:hover img, .contact .contact-shape .social-media li a.active img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.contact .contact-shape .social-media li a:hover span, .contact .contact-shape .social-media li a.active span {
   color: #0B74C0;
+  font-weight: 900 !important;
 }
 
 .form-content {
@@ -661,7 +688,7 @@ header .image-content img {
   outline: none;
   margin: auto;
   text-align: center;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 900;
   line-height: 27px;
   color: #fff;
