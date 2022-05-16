@@ -507,6 +507,176 @@ header .image-content img {
   margin-bottom: 15px;
 }
 
+.data-collect {
+  width: 100%;
+  padding: 30px 0px;
+}
+
+.data-collect .heading-data {
+  width: 100%;
+  text-align: center !important;
+  margin-bottom: 10px;
+}
+
+.data-collect .heading-data h1 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.data-collect .heading-data h2 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.data-collect .heading-data p {
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.data-collect .contact-shape {
+  width: 100%;
+}
+
+.data-collect .contact-shape h4 {
+  color: #585858;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.data-collect .contact-shape h5 {
+  font-size: 11px;
+  font-weight: 900;
+  line-height: 10px;
+  color: #585858;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.data-collect .contact-shape h5 span {
+  color: #585858;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 7px;
+}
+
+.data-collect .contact-shape .social-media {
+  margin-bottom: 20px;
+}
+
+.data-collect .contact-shape .social-media li {
+  margin: 0px 10px;
+}
+
+.data-collect .contact-shape .social-media li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.data-collect .contact-shape .social-media li a img {
+  width: 50px;
+  height: 50px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-bottom: 10px;
+  -webkit-transition: all .4s linear;
+  transition: all .4s linear;
+}
+
+.data-collect .contact-shape .social-media li a span {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.data-collect .contact-shape .social-media li a:hover, .data-collect .contact-shape .social-media li a.active {
+  background-color: transparent !important;
+}
+
+.data-collect .contact-shape .social-media li a:hover img, .data-collect .contact-shape .social-media li a.active img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.data-collect .contact-shape .social-media li a:hover span, .data-collect .contact-shape .social-media li a.active span {
+  color: #0B74C0;
+  font-weight: 900 !important;
+}
+
+.data-collect .image-banner {
+  width: 100%;
+  height: 300px;
+}
+
+.data-collect .image-banner img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.data-collect .submit-btn {
+  width: 100% !important;
+}
+
+.data-collect .flag-contain {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  margin-bottom: 20px;
+  padding-top: 12px;
+}
+
+.data-collect .dropdown {
+  padding: 0px !important;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.data-collect .dropdown img {
+  width: 100%;
+  height: 40px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.data-collect .dropdown .dropdown-toggle {
+  padding: 0px !important;
+}
+
+.data-collect .dropdown .dropdown-toggle::after {
+  display: none;
+}
+
 .clients .image-content {
   width: 100%;
   height: 399px;
